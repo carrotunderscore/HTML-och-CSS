@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Personal questions survey</title>
+        <meta charset="utf-8"/>
+        <meta http-equiv="refresh"/>
+        <meta name="description" content="Here is a survey that is asking you stuff about yourself."/>
+        <meta name="keywords" content="survey, sports">
+        <link rel="stylesheet" href="styling.css"/>
+        <link rel="icon" href="https://a1surveys.com/wp-content/uploads/2019/03/a.jpg"/>
+    </head>
+
+<body>
+    <h1 style="text-align:center"> You are gonna fill out this survey.</h1>
+
+    <p style="text-align:center"><b>Please type in your first and last name</b>
+    <form style="text-align:center"/>
+    <label for="fName">First name</label>
+    <input type="text" id="fName" name="fName" maxlength="20" size="35" style="background-color: lightgreen;"> <br>
+    <label for="lName">Last name</label>
+    <input type="text" id="lName" name="lName" maxlength="20" size="35" style="background-color: lightgreen;"> <br>
+    </p>
+    <label for="about">Tell us a little about yourself</label> <br>
+    <textarea id="about" name="about" rows="4" cols="30" style="background-color: lightblue;"> </textarea>
+    <br> 
+
+    <p><i>Are you doing sports?</i></p>
+    <input type="radio" id="yes" name="answer" value="yes"/>
+    <label for="yes">Yes</label>
+
+    <input type="radio" id="no" name="answer" value="no"/>
+    <label for="no">No</label>
+
+    <p><b><i>How do you prefer to absorb information?</i></b></p> 
+    <br>
+    <input type="radio" id="information" name="books"/>
+    <label for="books">Books</label>
+
+    <input type="radio" id="information" name="magizine"/>
+    <label for="magazine">Magazines</label>
+
+    <input type="radio" id="information" name="online"/>
+    <label for="online">Online</label>
+    <br> <br>
+
+    <label for="movies">What is your favourite movie genre?</label>
+    <select name="movies" id="genre">
+        <option value="action">Action</option>
+        <option value="romance">Romance</option>
+        <option value="comedy">Comedy</option>
+        <option value="drama">Drama</option>
+        <option value="horror">Horror</option>
+        <br> <br>
+    </select>
+    <br><br>
+
+    <input type="submit" value="Submit">
+    <br>
+    <p><small>Press submit to store your information to the server.</small></p>
+</body>
+
+</html>
