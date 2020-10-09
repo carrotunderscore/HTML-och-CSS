@@ -1,0 +1,162 @@
+*
+{
+    font-family: "Verdana";
+}
+
+h1
+{
+    text-align: center;
+    text-decoration: underline;
+}
+h2
+{
+    text-shadow: 2px 2px white;
+    position: relative;
+    left: 20px;
+}
+
+.summary p /*A demonstration of what can be accomplished through CSS-based design. Select any style sheet from the list to load it into this page.*/
+{
+    text-align: center;
+    box-shadow: 5px 10px rgb(4, 73, 4);
+    width: 300px;
+    border: 15px double green;
+    padding: 5px;
+    margin: 20px;
+
+}
+.preamble /*The Road to Enlightenment*/
+{
+    color: white;
+    
+    text-align: center;
+    width: 1500px;
+
+    border: 5px double green;
+    padding: 10px 10px 10px 1px;
+    background: url("darktree.jpg") repeat;
+}
+.explanation /* So What is This About?*/
+{
+    position: relative;
+    text-align: center;
+    color: white;
+    
+    text-align: center;
+    width: 1500px;
+
+    top: 10px;
+    left: 370px;
+
+    border: 5px double green;
+    padding: 10px 10px 10px 1px;
+    background: url("darkforest.jpg") repeat;
+}
+.participation /*Participation*/
+{
+    color: white;
+    
+    text-align: center;
+    width: 1500px;
+
+    position: relative;
+    top: 20px;
+
+    border: 5px double green;
+    padding: 10px 10px 10px 1px;
+    background: url("darkforest.jpg") repeat; 
+}
+.benefits /*Benefits*/
+{
+    color: white;
+    
+    text-align: center;
+    width: 1500px;
+
+    position: relative;
+    top: 25px;
+    left: 370px; 
+
+    border: 5px double green;
+    padding: 10px 10px 10px 1px;
+    background: url("darkforest.jpg") repeat;
+}
+.requirements /*Requirements*/
+{
+    color: white;
+    
+    text-align: center;
+    width: 1500px;
+
+    position: relative;
+    top: 30px; 
+
+    border: 5px double green;
+    padding: 10px 10px 10px 1px;
+    background: url("darkforest.jpg") repeat;
+}
+.page-wrapper
+{
+    background-color: light yellowgreen;
+}
+body
+{
+    background-image: url("https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png");
+    background-color: light green;
+
+}
+.design-selection /*Select a design*/
+{
+    top: 15px;
+
+    color: white;
+    position: relative;
+    background: url("orangetree.jpg") repeat;
+
+    border: 5px double green;
+    padding: 10px 10px 10px 1px;
+    width: 400px;
+}
+
+.design-archives /* Archives*/
+{
+    left: 644px;
+    top: -238px;
+
+    color: white;
+    position: relative;
+    background: url("orangetree.jpg") repeat;
+
+    border: 5px double green;
+    padding: 10px 10px 10px 1px;
+    width: 200px;
+}
+.design-archives h3
+{
+    position: relative;
+    color: white;
+    left: 40px;
+}
+.zen-resources /* Resources*/
+{
+    top: -385px;
+    position: relative;
+    left: 422px;    
+
+    background: url("orangetree.jpg") repeat;
+
+    border: 5px double green;
+    padding: 10px 10px 10px 1px;
+    width: 200px;
+
+}
+.zen-resources h3
+{
+    position: relative;
+    color: white;
+    left: 40px;
+}
+
+
+
+
