@@ -1,40 +1,55 @@
 *
 {
-    font-family: "Verdana";
+    font-family: "Charcoal";
+}
+a:link /*Links*/ 
+{
+    color:white;
 }
 
 h1
 {
     text-align: center;
     text-decoration: underline;
+    font-size: 300%;
+    text-shadow: 2px 2px white;
 }
 h2
 {
     text-shadow: 2px 2px white;
     position: relative;
-    left: 20px;
+    left: 800px;
 }
 
 .summary p /*A demonstration of what can be accomplished through CSS-based design. Select any style sheet from the list to load it into this page.*/
 {
     text-align: center;
-    box-shadow: 5px 10px rgb(4, 73, 4);
+    box-shadow: 5px 10px rgb(40, 34, 77);
     width: 300px;
-    border: 15px double green;
+    border: 15px double darkslateblue;
     padding: 5px;
     margin: 20px;
+
+    position: relative;
+    left: 750px;
 
 }
 .preamble /*The Road to Enlightenment*/
 {
     color: white;
     
+    position: relative;
     text-align: center;
-    width: 1500px;
+    width: 1300px;
+    left: 250px;
 
-    border: 5px double green;
+    border: 5px double darkslateblue;
     padding: 10px 10px 10px 1px;
     background: url("darktree.jpg") repeat;
+}
+.preamble h3
+{
+    font-family: cursive;
 }
 .explanation /* So What is This About?*/
 {
@@ -43,57 +58,75 @@ h2
     color: white;
     
     text-align: center;
-    width: 1500px;
+    width: 1300px;
 
     top: 10px;
     left: 370px;
 
-    border: 5px double green;
+    border: 5px double darkslateblue;
     padding: 10px 10px 10px 1px;
     background: url("darkforest.jpg") repeat;
+}
+.explanation h3
+{
+    font-family: cursive;
 }
 .participation /*Participation*/
 {
     color: white;
     
     text-align: center;
-    width: 1500px;
+    width: 1300px;
 
     position: relative;
     top: 20px;
+    left: 150px;
 
-    border: 5px double green;
+    border: 5px double darkslateblue;
     padding: 10px 10px 10px 1px;
     background: url("darkforest.jpg") repeat; 
+}
+.participation h3
+{
+    font-family: cursive;
 }
 .benefits /*Benefits*/
 {
     color: white;
     
     text-align: center;
-    width: 1500px;
+    width: 1300px;
 
     position: relative;
     top: 25px;
     left: 370px; 
 
-    border: 5px double green;
+    border: 5px double darkslateblue;
     padding: 10px 10px 10px 1px;
     background: url("darkforest.jpg") repeat;
+}
+.benefits h3
+{
+    font-family: cursive;
 }
 .requirements /*Requirements*/
 {
     color: white;
     
     text-align: center;
-    width: 1500px;
+    width: 1300px;
 
     position: relative;
     top: 30px; 
+    left: 250px;
 
-    border: 5px double green;
+    border: 5px double darkslateblue;
     padding: 10px 10px 10px 1px;
     background: url("darkforest.jpg") repeat;
+}
+.requirements h3
+{
+    font-family: cursive;
 }
 .page-wrapper
 {
@@ -101,33 +134,44 @@ h2
 }
 body
 {
-    background-image: url("https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png");
+    background: url("blur_edges.jpg") repeat;
     background-color: light green;
+    overflow: hidden;
+    
 
 }
 .design-selection /*Select a design*/
 {
-    top: 15px;
+    top: 170px;
+    left: 725px;
+
+    background: url("darktree.jpg") repeat;
 
     color: white;
     position: relative;
-    background: url("orangetree.jpg") repeat;
 
-    border: 5px double green;
+    border: 5px double darkslateblue;
     padding: 10px 10px 10px 1px;
     width: 400px;
+}
+.design-selection h3
+{
+    font-family: cursive;
+    position: relative;
+    left: 100px;
 }
 
 .design-archives /* Archives*/
 {
-    left: 644px;
-    top: -238px;
+    left: 1160px;
+    top: -55px;
+
+    background: url("darktree.jpg") repeat;
 
     color: white;
     position: relative;
-    background: url("orangetree.jpg") repeat;
 
-    border: 5px double green;
+    border: 5px double darkslateblue;
     padding: 10px 10px 10px 1px;
     width: 200px;
 }
@@ -136,16 +180,18 @@ body
     position: relative;
     color: white;
     left: 40px;
+    font-family: cursive;
 }
 .zen-resources /* Resources*/
 {
-    top: -385px;
+    top: -210px;
     position: relative;
-    left: 422px;    
+    left: 480px;  
+    
+    background: url("darktree.jpg") repeat;
 
-    background: url("orangetree.jpg") repeat;
 
-    border: 5px double green;
+    border: 5px double darkslateblue;
     padding: 10px 10px 10px 1px;
     width: 200px;
 
@@ -155,6 +201,26 @@ body
     position: relative;
     color: white;
     left: 40px;
+    font-family: cursive;
+}
+
+html, body /*Stop the left and right scrolling*/ 
+{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+footer a:link
+{
+    color: blue;
+    position: relative;
+    top: 600px;
+    left: 840px;
+}
+
+a:visited
+{
+    color:blue;
 }
 
 

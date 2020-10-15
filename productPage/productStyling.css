@@ -1,0 +1,205 @@
+ul
+{
+    list-style-type: none;
+    padding-left: 70px;
+
+    background-color: black;
+    background-image: url("jimiblur.jpg");
+    background-repeat: repeat-y;
+    background-position: center;
+    background-position-y: -25%;
+    background-attachment: fixed;
+    margin-top: 500px;
+
+    color:  black;
+    border:none;
+    text-align: center;
+    text-indent: -90%;
+    margin: 10px 500px;
+    font-size: 50px;
+
+}
+@media (max-width: 768px)
+{
+    ul{width: 100%; margin: 0 auto;
+        background-repeat: repeat-y;
+        background-position: left;
+        background-position-y: -250%; 
+           
+    }
+    div .guitar{width:40%;
+    left: 20%;}
+    div .guitar2{width:40%;
+    margin-top: 45%;
+    left: 0%;}
+    div{width: auto;
+    overflow: hidden;}
+    .wrapper {width:100%;  margin: 0 center; }
+    .background{width:200%;}
+    blockquote{width:200%;}
+
+
+}
+@media only screen and (max-width: 411px)
+{
+    ul{ width: 100%; 
+        text-indent: -80%;
+        margin: 0 auto;
+        background-repeat: repeat-y;
+        background-position: left;
+        background-position-y: -50%;
+        background-position-x: 30%; }
+    .wrapper h1{width: auto;}
+    .flexbox-container{
+        height: 50%;
+
+    }
+    .flexbox-item{
+        position: relative;
+        top: -60px;
+        height: 100px;
+    }
+    #video2{
+        width: 100%;
+    }
+    #video3{
+        width: 100%;
+    }
+    #video4{
+        width: 100%;
+    }
+}
+
+a{
+    color: #0036D4;
+    font-family: "Lucida Console";
+    font-size: 30px;
+    
+}
+.quote
+{
+    font-size: 15px;
+    background-color: yellow;
+    
+}
+
+.wrapper h1
+{
+    width: 50%;
+    border: 5px solid yellow;
+    color: yellow;
+    padding: 25px;
+    margin: auto;
+    margin-top: -300px;
+    text-align: center;
+    font-size: 400%;
+    -webkit-text-stroke: 2px black;
+    background-image: url("greywood.jpg");
+    
+}
+blockquote
+{
+    border: 3px solid black;
+    background-color: yellow;
+    width: 350px;
+    padding: 2px;
+    font-size: 70%;
+    margin:auto  
+}
+
+body
+{
+    background-image: url("https://www.wallpaperflare.com/static/114/906/423/night-sky-space-stars-star-wallpaper.jpg");
+    background-size: 200%;
+    height: auto;
+    width: 100%;
+    
+    overflow-x: hidden;
+
+}
+.guitar 
+{ /*Guitar logo*/
+    position: relative;
+    width:auto;
+    height:auto;
+    margin-bottom: 350px;
+    left: 930px;
+    top: 10px;
+    
+}
+.guitar2
+{
+    position: relative;
+    top: -340px;
+    left: -480px;
+}
+
+
+
+label
+{
+    color: rgb(255, 255, 255); /*Sign email up*/
+}
+#video /*Satsuma eruption video*/
+{
+    position: relative;
+    height: 0;
+
+    
+    top:0;
+    left: 0;
+    width: 95%;
+    height: 100%;
+    margin: auto
+    
+}
+
+.flexbox-container /*Deraps embedded videos*/
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    position: relative;
+    padding-bottom: 45%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+
+    border-top: 50px solid black;
+
+
+
+}
+.flexbox-item
+{
+    margin: 10px;
+    
+}
+.flexbox-item-1 
+{
+    min-height: 100px;
+    min-width: 100px;
+}
+.flexbox-item-2
+{
+    min-height: 100px;
+    min-width: 100px;
+}
+.flexbox-item-3
+{
+    min-height: 100px;
+    min-width: 100px;
+}
+
+.background
+{
+
+    height: auto;
+
+    display:block; /*remove inline-block spaces*/
+    width:100%;
+    margin:-50% 0;
+
+    background-size: cover;
+}
