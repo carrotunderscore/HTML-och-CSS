@@ -1,0 +1,473 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <base href="http://127.0.0.1:5500/Technical_Documentation_Page/FirstDocument.html">
+        <meta charset="UTF-8">
+        <meta http-equiv="content-type" content="text/<!DOCTYPE html>">
+        <meta name="description" content="Here's a practice page where technical documents will be shown. The page will use HTML, CSS and basic Javascript."/>
+        <meta name="keywords" content="HTML, CSS, Javascript, Technical documents page, Web responsive design">
+        <meta name="robots" content="index, follow"/>
+
+        <script src="hideShow.js"></script>
+        <script src="highlight.pack.js"></script>
+        <base href="C:\Users\JustMorgan\Documents\GitHub\HTML-och-CSS\Technical_Documentation_Page\FirstDocument.html"/>
+        <link rel="stylesheet" href="documentStyling.css"/>
+        <link rel="stylesheet" href="default.css"/>
+        <link rel="icon"  href="papericon.ico"/>
+
+        <title>Technical Document's Page</title>
+
+    <ul>
+        <div class="flex-container">
+        <nav id="navbar"><h1>Technical Documents Page</h1>
+            <header>Random concepts for the beginner</header>
+            <script> </script>
+            <li><a class="nav-link" href="#OOP_Cornerstones" onClick="toggle('OOP_Cornerstones')">OOP Cornerstones</a></li>
+            <li><a class="nav-link" href="#variables" onClick="toggle('variables')"> Variables </a></li>
+            <li><a class="nav-link" href="#conditions" onClick="toggle('conditions')"> Conditions </a></li>
+            <li><a class="nav-link" href="#loops" onClick="toggle('loops')"> Loops </a></li>
+            <li><a class="nav-link" href="#tryCatch" onClick="toggle('tryCatch')"> Try/catch </a><hr></li>
+        </nav>
+    </div>
+    </ul>
+    </head>
+
+    <body>
+        <div id="wrapper">
+
+            <h2 id="programming">Programming concepts</h2>
+            <main id="main-doc">
+                
+                <section class="main-section" id="OOP_Cornerstones"><header><h2>OOP Cornerstones</h2></header>                  
+                    <script>hljs.initHighlightingOnLoad();</script> 
+                    <a href="javascript: void(0);" onClick="toggle('q1')">PolyMorphism example:</a><br><br>
+                    <div id="q1" style="display:none;">
+<p><pre><code>
+class Animal 
+{
+    public void animalSound() 
+    {
+        System.out.println("The animal makes a sound");
+    }
+}                                  
+class Pig extends Animal 
+{
+    public void animalSound() 
+    {
+        System.out.println("The pig says: wee wee");
+    }
+}                    
+class Dog extends Animal 
+{
+    public void animalSound() 
+    {
+        System.out.println("The dog says: bow wow");
+    }
+}
+</code></pre></p>
+                    </div>
+
+                    <script></script> 
+                    <a href="javascript: void(0);" onClick="toggle('q2')">Encapsulation example:</a><br><br>
+                    <div id="q2" style="display:none;">
+<p><pre><code>
+public class Encapsulate 
+{ 
+    // private variables declared  
+ 
+    private String geekName; 
+    private int geekRoll; 
+    private int geekAge; 
+  
+    // GETTERS   
+    public int getAge()  
+    { 
+      return geekAge; 
+    } 
+   
+    // get method for name to access  
+    public String getName()  
+    { 
+      return geekName; 
+    } 
+      
+    // get method for roll to access   
+    public int getRoll()  
+    { 
+       return geekRoll; 
+    } 
+   
+    // SETTERS  
+    public void setAge( int newAge) 
+    { 
+      geekAge = newAge; 
+    } 
+   
+    // set method for name to access  
+    public void setName(String newName) 
+    { 
+      geekName = newName; 
+    } 
+      
+    // set method for roll to access  
+    public void setRoll( int newRoll)  
+    { 
+      geekRoll = newRoll; 
+    } 
+} 
+</code></pre></p>
+                    </div>
+
+                    <script></script> 
+                    <a href="javascript: void(0);" onClick="toggle('q3')">Inheritance example:</a><br><br>
+                    <div id="q3" style="display:none;">
+<p><pre><code>
+class Bicycle  
+{ 
+
+// the Bicycle class has two fields 
+
+    public int gear; 
+    public int speed;    
+
+// the Bicycle class has one constructor 
+
+    public Bicycle(int gear, int speed) 
+    { 
+        this.gear = gear; 
+        this.speed = speed; 
+    }        
+
+// the Bicycle class has three methods 
+
+    public void applyBrake(int decrement) 
+    { 
+        speed -= decrement; 
+    }           
+    public void speedUp(int increment) 
+    { 
+        speed += increment; 
+    }       
+
+// toString() method to print info of Bicycle 
+
+    public String toString()  
+    { 
+        return("No of gears are "+gear 
+            +"\n"
+            + "speed of bicycle is "+speed); 
+    }  
+}  
+
+// derived class 
+
+class MountainBike extends Bicycle  
+{        
+
+// the MountainBike subclass adds one more field 
+
+    public int seatHeight; 
+
+// the MountainBike subclass has one constructor 
+
+    public MountainBike(int gear,int speed, int startHeight) 
+    { 
+
+// invoking base-class(Bicycle) constructor 
+
+        super(gear, speed); 
+        seatHeight = startHeight; 
+    }    
+
+// the MountainBike subclass adds one more method 
+
+    public void setHeight(int newValue) 
+    { 
+        seatHeight = newValue; 
+    } 
+
+// overriding toString() method 
+
+// of Bicycle to print more info 
+
+    @Override public String toString() 
+    { 
+        return (super.toString()+ 
+            "\nseat height is "+seatHeight); 
+    } 
+          
+} 
+</code></pre></p>
+                    </div>
+                </section>
+
+                <section class="main-section" id="variables"><header><h2>Variables</h2></header>
+                    <script></script> 
+                    <a href="javascript: void(0);" onClick="toggle('q4')">Variable types example:</a><br><br>
+                    <div id="q4" style="display:none;">
+                    <p><pre><code>
+int myNum = 5;               // Integer (whole number)
+float myFloatNum = 5.99f;    // Floating point number
+char myLetter = 'D';         // Character
+boolean myBool = true;       // Boolean
+String myText = "Hello";     // String
+                    </code></pre> </p>
+                    </div>
+
+                    <script></script> 
+                    <a href="javascript: void(0);" onClick="toggle('q5')">Primitive data types example:</a><br><br>
+                    <div id="q5" style="display:none;">
+                    <p><pre><code>
+byte =	  1 byte    //Stores whole numbers from -128 to 127
+short =	  2 bytes   //Stores whole numbers from -32,768 to 32,767
+int =	  4 bytes   //Stores whole numbers from -2,147,483,648 to 2,147,483,647
+long =	  8 bytes   //Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+float =	  4 bytes   //Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits
+double =  8 bytes   //Stores fractional numbers. Sufficient for storing 15 decimal digits
+boolean	= 1 bit     //Stores true or false values
+char =	  2 bytes   //Stores a single character/letter or ASCII values
+                    </code></pre> </p> 
+                    </div>
+                </section>
+
+                <section class="main-section" id="conditions"><header><h2>Conditions</h2></header>
+                    <script></script> 
+                    <a href="javascript: void(0);" onClick="toggle('q6')">If/else:</a><br>
+                    <div id="q6" style="display:none;">
+                    <p><pre><code>
+int time = 22;
+if (time < 10) 
+{
+  System.out.println("Good morning.");
+} else if (time < 20) {
+  System.out.println("Good day.");
+} else {
+  System.out.println("Good evening.");
+}
+
+// Outputs "Good evening."
+                    </div>
+                    </code></pre></p>
+
+                    <script></script> 
+                    <a href="javascript: void(0);" onClick="toggle('q7')">Switch:</a><br><br>
+                    <div id="q7" style="display:none;">
+                    <p><pre><code>
+int day = 4;
+switch (day) 
+{
+    case 1:
+        System.out.println("Monday");
+        break;
+    case 2:
+        System.out.println("Tuesday");
+        break;
+    case 3:
+        System.out.println("Wednesday");
+        break;
+    case 4:
+        System.out.println("Thursday");
+        break;
+    case 5:
+        System.out.println("Friday");
+        break;
+    case 6:
+        System.out.println("Saturday");
+        break;
+    case 7:
+        System.out.println("Sunday");
+        break;
+}
+// Outputs "Thursday" (day 4)
+                    </code></pre></p>
+                    </div> 
+
+                    <script></script> 
+                    <a href="javascript: void(0);" onClick="toggle('q8')">Relational and Logical operators:</a><br><br>
+                    <div id="q8" style="display:none;">
+                    <p><pre><code>
+
+<u>Relational operators:</u>
+int num = 5;
+
+// Equal to
+    num == 5; // true
+
+// Not equal to
+    num != 5; // false
+
+// Greater than OR equal to
+    num >= 5; // true
+
+// Less than OR equal to
+    num <= 5; // true
+
+// Greater than
+    num > 4; // true
+
+// Less than
+    num < 4; // false
+
+<u>Logical operators:</u>
+
+// Reverses the result, returns false if the result is true
+// !
+if !(num == 5)
+    returns false; 
+
+// Returns true if both statements are true
+// &&
+if (num <= 5 &&  num < 10)
+    returns true;
+    
+// Returns true if one of the statements is true
+// ||
+if(num < 5 || num < 4)
+    return false;
+
+
+
+
+                    </code></pre></p>
+                    </div>
+
+                    <script></script> 
+                    <a href="javascript: void(0);" onClick="toggle('switchAndIf')">Switch vs if else</a><br>
+                    <div id="switchAndIf" style="display:none;">
+                    <p><pre><code>
+                        <ol>
+<h3><u>Deciding when to use which is paramount. Here are some reasons to use either:</u></h3>
+
+<li>Check the Testing Expression: An if-then-else statement can test expressions based on ranges of values or conditions, whereas a switch statement 
+tests expressions based only on a single integer, enumerated value, or String object.</li>
+<li>
+Switch better for Multi way branching: When compiler compiles a switch statement, it will inspect 
+each of the case constants and create a “jump table” that it will use for selecting the path of execution depending on the value of the expression. 
+Therefore, if we need to select among a large group of values, a switch statement will run much faster than the equivalent logic coded using a sequence 
+of if-elses. The compiler can do this because it knows that the case constants are all the same type and simply must be compared for equality 
+with the switch expression, while in case of if expressions, 
+the compiler has no such knowledge.
+</li>
+<li>
+if-else better for boolean values: 
+If-else conditional branches are great for variable conditions that result into a boolean, 
+whereas switch statements are great for fixed data values.
+</li>
+<li>
+Clarity in readability: A switch looks much cleaner when you have to combine cases. Ifs  are quite vulnerable to errors too. 
+Missing an else statement can land you up in havoc. 
+Adding/removing labels is also easier with a switch and makes your code significantly easier to change and maintain.
+</li>
+                        </ol>
+                    </div>
+                    </code></pre></p>
+                </section>
+
+                <section class="main-section" id="loops"><header><h2>Loops</h2></header>
+                    <script></script> 
+                    <a href="javascript: void(0);" onClick="toggle('q9')">For loops:</a><br><br>
+                    <div id="q9" style="display:none;">
+                    <p><pre><code>
+public class MyClass 
+{
+    public static void main(String[] args) 
+    {
+        for (int i = 0; i < 5; i++) 
+        {
+            System.out.println(i);
+        }  
+    }
+}                     
+ 
+// Prints out 
+0
+1
+2
+3
+4
+
+                    
+                </code></pre></p>
+                </div>
+
+                <script></script> 
+                    <a href="javascript: void(0);" onClick="toggle('q10')">While loop</a><br><br>
+                    <div id="q10" style="display:none;">
+                    <p><pre><code>
+// i gets added 1 every loop and the loop stops when it reaches value of 5
+
+int i = 0;
+while (i < 5) 
+{
+  System.out.println(i);
+  i++;
+}
+
+// Prints out 
+0
+1
+2
+3
+4
+                </code></pre></p>
+                    </div>
+
+                <script></script> 
+                    <a href="javascript: void(0);" onClick="toggle('qDifferences')">Differences</a><br><br>
+                    <div id="qDifferences" style="display:none;">
+                    <p><pre><code>
+                        <ol>
+<li><u>For:</u> 
+<i>Initialization may be either in loop statement or outside the loop.</i>
+
+<u>While:</u>
+<i>Initialization is always outside the loop.</i>
+</li>
+<li><u>For:</u>
+<i>Once the statement(s) is executed then after increment is done.</i>
+
+<u>While:</u>
+<i>can be done before or after the execution of the statement(s).</i>
+</li>
+<li><u>For:</u>
+<i>It is normally used when the number of iterations is known.</i>
+
+<u>While:</u>
+<i>It is normally used when the number of iterations is unknown.</i>
+</li>
+                        </ol>
+                    </code></pre></p>
+                    </div>
+
+            </section>
+
+                <section class="main-section" id="tryCatch"><header><h2>Try/Catch</h2></header>
+                    <script></script> 
+                    <a href="javascript: void(0);" onClick="toggle('q11')">Try/catch</a><br><br>
+                    <div id="q11" style="display:none;">
+                    <p><pre><code>
+public class MyClass 
+{
+    public static void main(String[ ] args) 
+    {
+        try 
+        {
+            int[] myNumbers = {1, 2, 3};
+            System.out.println(myNumbers[10]);
+        } catch (Exception e) 
+        {
+            System.out.println("Something went wrong.");
+        }
+    }
+}
+
+                    
+                </code></pre></p>
+                </div>
+                </section>
+            
+            </main>
+        </div>
+
+    </body>
+</html>

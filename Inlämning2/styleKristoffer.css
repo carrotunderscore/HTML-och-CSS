@@ -1,0 +1,193 @@
+.page-wrapper{
+    padding-top: 0;
+    padding-left: 250px;
+    padding-right: 400px;
+}
+
+header{
+    background: linear-gradient(0deg, #7d9e88 0%, #7e9c88 35%, #A3C1AD 100%);
+    color: rgb(5, 109, 109);
+    width: 250px;
+    height: 250px;
+    border-radius: 250px 250px 250px 250px;
+    text-align: center;
+    position: fixed;
+    top: 35%;
+    left: 35%;
+}
+
+#zen-summary {
+    background: linear-gradient(180deg, #7d9e88 0%, #7e9c88 35%, #A3C1AD 100%);
+    position: fixed;
+    bottom: 0;
+    right: 35px;
+    border-radius: 25px 25px 0px 0px;
+    width: 300px;
+    text-align: center;
+}
+
+.sidebar{
+    background: linear-gradient(0deg, #7d9e88 0%, #7e9c88 35%, #A3C1AD 100%);
+    position: fixed;
+    top: 0px;
+    right: 35px;
+    width: 280px;
+    height: 500px;
+    height: 500px;
+    padding-right: 25px;
+    text-align: center;
+    border-radius: 0px 0px 25px 25px;
+    transition: height 2s;
+    overflow: hidden;
+}
+
+.wrapper h3{
+    color: #2d4e38;
+}
+.wrapper ul{
+    list-style-type: none;
+}
+#design-selection li{
+    color:#3f5a48;
+    display: block;
+    }
+#design-selection a:hover{
+    color:#09ff5b;
+}
+.preamble{
+    position: fixed;
+    top: 5%;
+    left: 25%;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(0deg, #f4a102 0%, #f9b513 25%, #fbcd0c 50%, #f4e11e 100%);
+    transition: height 2s, width 2s, border-radius 2s, color 0.5s, text-align 0.5s;
+    border-radius: 50px 50px 50px 50px;
+    color: transparent;
+    text-align: center;
+    padding: 15px;
+    overflow: hidden;
+    z-index: -1;
+}
+.preamble:hover {
+    height: 230px;
+    width: 550px;
+    border-radius: 50px;
+    display: block; 
+    color: green; 
+    font-size: 15px;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#zen-explanation{
+    top: 50%;
+    left: 17%;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px 50px 50px 50px;
+    background: linear-gradient(180deg, #fff5d5 0%, #fce5c4 35%, #f8d4b3 100%);
+    color: transparent;
+    transition: width 2s, height 2s, border-radius 2s, color 0.5s, text-align 0.5s;
+    overflow: hidden;
+    z-index: -1;
+}
+#zen-explanation:hover{
+    width: 300px;
+    height: 380px;
+    border-radius: 50px;
+    display: block; 
+    color: green; 
+    font-size: 15px;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#zen-participation{
+    overflow: hidden;
+    position: fixed;
+    right: 30%;
+    top: 60%;
+    background: linear-gradient(0deg, #114da9 0%, #3778c2 35%, #469fe1 100%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50px 50px 50px 50px;
+    transition: width 2s, height 2s, border-radius 2s, color 0.5s, text-align 0.5s;
+    overflow: hidden;
+    color: transparent;
+    z-index: -1;
+}
+#zen-participation:hover{
+    width: 550px;
+    height: 300px;
+    border-radius: 50px;
+    display: block; 
+    color: rgb(0, 0, 0); 
+    font-size: 15px;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#zen-benefits{
+    overflow: hidden;
+    position: fixed;
+    right: 63%;
+    bottom: 150px;
+    background: linear-gradient(0deg, #e2b8e2 0%, #c4a2dc 35%, #c3c1fd 100%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50px 50px 50px 50px;
+    transition: width 2s, height 2s, border-radius 2s, color 0.5s, text-align 0.5s;
+    overflow: hidden;
+    color: transparent;
+    z-index: -1;
+}
+#zen-benefits:hover{
+    width: 550px;
+    height: 150px;
+    border-radius: 50px;
+    display: block; 
+    color: green; 
+    font-size: 15px;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#zen-requirements{
+    overflow: hidden;
+    position: fixed;
+    left: 57%;
+    top: 150px;
+    background-color: paleturquoise;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px 50px 50px 50px;
+    transition: width 1s, height 1s, border-radius 2s, color 0ms, text-align 0.5s;
+    overflow: hidden;
+    color: transparent;
+    z-index: -1;
+}
+#zen-requirements:hover{
+    width: 550px;
+    height: 500px;
+    border-radius: 50px;
+    display: block; 
+    color: green; 
+    font-size: 15px;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+}
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 5px;
+    
+}

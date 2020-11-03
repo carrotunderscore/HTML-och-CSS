@@ -1,0 +1,236 @@
+@media (max-width: 750px) {   /*--------------------------------*/
+    body {
+        background: #F0C932;
+    }
+    footer{
+        font-size: auto;
+
+    }
+    .grid-container{
+        justify-content: space-evenly;
+        position: relative;
+        left: -35px;
+    
+    }
+    .start{
+        font-size: medium;
+        text-align: center;
+        font-style: oblique;
+    }
+    .intro{
+        font-size: medium;
+        text-align: center;
+        font-style: oblique;
+    }
+    h1{
+        text-align: center;
+    }
+     ul{
+        line-height: 1.6;
+        background-color: #FCCC32;
+        box-shadow: 0 0 10px navy;
+    }
+   
+  }
+
+@media (max-width: 1024px) and (min-width: 750px) {
+    body {
+        background: #F0C932;
+    }
+    footer{
+        font-size: auto;
+        
+    }
+  
+    .grid-container{   /*--------------------------------*/
+            
+        /*justify-content: space-evenly;*/
+        position: relative;
+        left: -35px;
+
+        align-items: end;
+        justify-content: center;
+    }
+ 
+    .fb-page
+    {
+        position: relative;
+        left: 180px;
+    }
+    h2{
+        text-align: center;
+        margin-right: 50px;
+        
+    }
+    .start{
+        font-size: x-large;
+        text-align: center;
+        font-style: oblique;
+    }
+    .intro{
+        font-size: x-large;
+        text-align: center;
+        font-style: oblique;
+    }
+    h1{
+        text-align: center;
+    }
+    ul{
+        line-height: 1.6;
+        background-color: #FCCC32;
+        box-shadow: 0 0 10px navy;
+    }
+
+
+}
+@media (max-width: 1920px) and (min-width: 1024px) { /*--------------------------------*/
+    body {
+        background: #F0C932;
+        background-image: url("https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/rZJIMvhmliwmde8a6/videoblocks-male-carpenter-marking-wood-with-pen-carpenters-hand-marking-wood-for-cutting-at-workshop-woodwork-concept_sdjzdstdr_thumbnail-1080_01.png") no-repeat center;
+    }
+    footer{
+        position: relative;
+        top: auto;
+        font-size: auto;
+    }
+  
+    .grid-container{  
+            
+        /*justify-content: space-evenly;*/
+        position: relative;
+        left: -35px;
+
+        align-items: end;
+        justify-content: center;
+    }
+
+  
+    .fb-page
+    {
+        position: relative;
+        left: 800px;
+        top: -10px;
+    }
+    h2{
+        text-align: center;
+        margin-right: 200px;
+        position: relative;
+        top: -10px;
+        left: 120px;
+    }
+  
+    .footerGallery
+    {
+        top: 110px;
+    }
+    .footerAbout
+    {
+        height: 75;
+    }
+    .start{
+        font-size: x-large;
+        text-align: center;
+        font-style: oblique;
+    }
+    .intro{
+        font-size: x-large;
+        text-align: center;
+        font-style: oblique;
+    }
+    h1{
+        text-align: center;
+    }
+    ul{
+        font-size: large;
+        text-align: center;
+        line-height: 1.6;
+        list-style-type: none;
+        background-color: #FCCC32;
+        box-shadow: 0 0 10px navy;
+    }
+    li{
+    }
+    h3{
+        text-align: center;
+    }
+    
+   
+}
+/*^^^^MEDIA QUERYS OVANFÖR, MOBILE FIRST BETONING^^^^*/
+.flex-container
+{
+    border: 1px navy solid;
+    padding: 10px;
+    text-align: center;
+    
+}
+.flex1
+{
+    flex:1;
+    display: inline-block;
+    padding: 2px;
+    
+}
+.flex2
+{
+    flex:1;
+    display: inline-block;
+    padding: 2px;
+
+}
+.flex3
+{
+    flex:1;
+    display: inline-block;
+    padding: 2px;
+}
+.flex4
+{
+    flex:1;
+    display: inline-block;
+    padding: 2px;
+}
+/*^^^FLEXBOXAR OVANFÖR^^^*/
+.grid-container 
+{  
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.grid-item
+{
+    margin: 10px;
+    border: 2px solid black;
+    background-color: rgb(255, 255, 166);
+    text-align: center;
+    
+}
+/*^^^^^CSS-GRID OVANFÖR^^^^*/
+ul{
+    border: 2px solid black;
+}
+
+footer
+{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:100%;
+    background:#93A23F;
+    border: 1px solid navy;
+    text-align: center;
+}
+form
+{
+    display: flex;
+    justify-content: center; 
+
+}
+input{
+    width: 200px;
+}
+
+
