@@ -83,7 +83,82 @@
 
 
 }
-@media (max-width: 1920px) and (min-width: 1024px) { /*--------------------------------*/
+@media (max-width: 1280px) and (min-width: 1024px)
+{
+    
+    body {
+        background: #F0C932;
+        background-image: url("https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/rZJIMvhmliwmde8a6/videoblocks-male-carpenter-marking-wood-with-pen-carpenters-hand-marking-wood-for-cutting-at-workshop-woodwork-concept_sdjzdstdr_thumbnail-1080_01.png") no-repeat center;
+    }
+    footer{
+         position: relative;
+         top: auto;
+        font-size: auto;
+    }
+      
+    .grid-container{  
+                
+        /*justify-content: space-evenly;*/
+        position: relative;
+        left: -35px;
+    
+        align-items: end;
+        justify-content: center;
+    }
+    
+      
+    .fb-page
+    {
+        position: relative;
+        left: 490px;
+         top: -10px;
+    }
+    h2{
+        text-align: center;
+        margin-right: 200px;
+        position: relative;
+        top: -10px;
+        left: 120px;
+    }
+      
+    .footerGallery
+    {
+        top: 110px;
+    }
+    .footerAbout
+    {
+        height: 75;
+    }
+    .start{
+        font-size: x-large;
+        text-align: center;
+        font-style: oblique;
+    }
+    .intro{
+        font-size: x-large;
+        text-align: center;
+        font-style: oblique;
+    }
+    h1{
+        text-align: center;
+    }
+    ul{
+        font-size: large;
+        text-align: center;
+        line-height: 1.6;
+        list-style-type: none;
+        background-color: #FCCC32;
+        box-shadow: 0 0 10px navy;
+    }
+    }
+    h3{
+        text-align: center;
+    }
+
+  
+
+
+@media (max-width: 1920px) and (min-width: 1281px) { /*--------------------------------*/
     body {
         background: #F0C932;
         background-image: url("https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/rZJIMvhmliwmde8a6/videoblocks-male-carpenter-marking-wood-with-pen-carpenters-hand-marking-wood-for-cutting-at-workshop-woodwork-concept_sdjzdstdr_thumbnail-1080_01.png") no-repeat center;
@@ -154,7 +229,7 @@
     }
     
    
-}
+
 /*^^^^MEDIA QUERYS OVANFÖR, MOBILE FIRST BETONING^^^^*/
 .flex-container
 {
